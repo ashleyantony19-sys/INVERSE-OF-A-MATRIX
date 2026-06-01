@@ -12,37 +12,21 @@ To write a python program to find the inverse of a matrix
 
 ## Program:
 ```
+
+#Program to find the inverse of a matrix.
+#Developed by: ASHLEY ANTONY
+#RegisterNumber: 212225220013
+import os
+os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
-A = np.array([[1, 2],
-              [3, 4]])
-
-inverse = np.linalg.inv(A)
-
-print("The given matrix is:")
-print(A)
-
-print("Inverse of the matrix is:")
-print(inverse)
+matrixA=np.array([[6,2,3],[3,1,1],[10,3,4]])
+res=np.linalg.inv(matrixA)
+print(res)
 ```
 ## Output:
 
-<img width="879" height="517" alt="Screenshot 2026-05-11 185808" src="https://github.com/user-attachments/assets/fd218a12-b37d-4907-b8c9-6a485395594d" />
 
-
-
-
-
-
-
-
-
-
-<img width="663" height="319" alt="Screenshot 2026-05-11 185813" src="https://github.com/user-attachments/assets/23a5032e-12c1-4735-9249-3a7b47d75ba4" />
-
-
-
-
-
+<img width="619" height="389" alt="WhatsApp Image 2026-06-01 at 9 34 47 AM" src="https://github.com/user-attachments/assets/9357c4cb-ccee-41ec-a7a6-be9dcc78c0cc" />
 
 
 ## Result:
